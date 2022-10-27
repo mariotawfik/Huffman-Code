@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E6851033290ABA4300E34E80 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6851032290ABA4300E34E80 /* main.cpp */; };
+		E685103B290ABA7E00E34E80 /* Huffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6851039290ABA7E00E34E80 /* Huffman.cpp */; };
+		E685103E290ABA9500E34E80 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E685103C290ABA9500E34E80 /* Node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		E685102F290ABA4300E34E80 /* Huffman Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Huffman Code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6851032290ABA4300E34E80 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E6851039290ABA7E00E34E80 /* Huffman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Huffman.cpp; sourceTree = "<group>"; };
+		E685103A290ABA7E00E34E80 /* Huffman.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Huffman.hpp; sourceTree = "<group>"; };
+		E685103C290ABA9500E34E80 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		E685103D290ABA9500E34E80 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				E6851032290ABA4300E34E80 /* main.cpp */,
+				E6851039290ABA7E00E34E80 /* Huffman.cpp */,
+				E685103A290ABA7E00E34E80 /* Huffman.hpp */,
+				E685103C290ABA9500E34E80 /* Node.cpp */,
+				E685103D290ABA9500E34E80 /* Node.hpp */,
 			);
 			path = "Huffman Code";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E685103E290ABA9500E34E80 /* Node.cpp in Sources */,
 				E6851033290ABA4300E34E80 /* main.cpp in Sources */,
+				E685103B290ABA7E00E34E80 /* Huffman.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
