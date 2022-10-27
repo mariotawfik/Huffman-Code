@@ -11,6 +11,7 @@
 class Node {
 public:
     Node();
+    Node(char symbolInputed, int frequencyInputed);
 private:
     char symbol;
     int count;

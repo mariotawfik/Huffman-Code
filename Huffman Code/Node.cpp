@@ -6,3 +6,10 @@
 //
 
 #include "Node.hpp"
+
+Node::Node(char symbolInputed, int frequencyInputed) {
+    symbol = symbolInputed;
+    count = frequencyInputed;
+    left = new Node();
+    right = new Node();
+}
